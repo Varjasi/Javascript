@@ -6,6 +6,7 @@ function osszegzes_osszeadasa (lista) {
     return s;
 }
 console.log(osszegzes_osszeadasa([2,3,4,5]));
+console.log(5 + 6);
 
 /*
 function osszegzes_szorzassal (lista2) {
@@ -15,7 +16,7 @@ function osszegzes_szorzassal (lista2) {
     }
     return s;
 }
-console.log(osszegzes_osszeadasa([2,3,4,5]));*/
+console.log(osszegzes_osszeadasa([2,3,4,5]));
 
 function osszead (num1, num2) {
     return num1 + num2;
@@ -26,7 +27,7 @@ console.log(osszegzes([3,4,5], function(num1, num2) {return num1 * num2;}));
 
 /*
 Megszámlálás
-*/
+
 function megszamlalas(lista) {
     let c=0;
     for(let i = 0; i<lista.length; i++){
@@ -44,7 +45,7 @@ console.log(megszamlalas([1,2,3,4,5,6], oszthato_e_kettovel))
 
 /* Macimum kiválasztás 
 */
-
+/*
 function maxkiv(lista5) {
     let max_ertek = lista[0]; 
     for(let h = 0; h<lista.length; h++) {
@@ -55,4 +56,4 @@ function maxkiv(lista5) {
 
 }
 console.log(maxkiv([1,2,3,4,5,6]))
-
+*/

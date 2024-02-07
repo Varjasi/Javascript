@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <input id="clickMe" type="button" value="clickme" onclick="doFunction();" />
+    <input id="clickMe2" type="button" value="összegzés" onclick="doFunction(osszegzes_osszeadasa);" />
+
+    <script>
+        document.getElementById("clickMe").onclick = function () { alert('hello!'); console.log(5 + 6); };
+        function osszegzes_osszeadasa (lista) {
+    let s = 0;
+    for (let i=0; i<lista.length; i++) {
+        s+=lista[i]
+    }
+    return s;
+}
+console.log(osszegzes_osszeadasa([3,3,4,5]));
+console.log(5 + 6);
+    </script>
+    
+</body>
+</html>
